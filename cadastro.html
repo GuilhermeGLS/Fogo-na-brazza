@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="estilos/cadastro.css">
+
+</head>
+<body>
+    <header class="container">
+    <h1>Cadastro do Aluno</h1>
+    <hr>
+    </header>
+    
+
+    <form class="container">
+
+         
+            <div>
+                <label for="nome">Nome</label >
+                <input type="text" name="nome" placeholder="Digite seu Nome" required>
+            </div>
+            
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" placeholder="Digite seu E-mail" required>
+            </div>
+            
+            <div>
+                <label for="Idade">Idade</label>
+                <input type="number" name="Idade" placeholder="Digite sua Idade" required>
+            </div>
+            
+            <h2>Campos de Endereços</h2>
+            <hr>
+            
+            <div>
+                <label for="CEP">CEP</label>
+                <input type="text" name="CEP" placeholder="Digite seu CEP" required>
+            </div>
+            
+            <div>
+                <label for="Endereço">Endereço</label>
+                <input type="text" name="Endereço" placeholder="Digite seu Endereço" required>
+            </div>
+            <br>
+            <div>
+                <label for="Estado">Estado</label>
+                <select name="Estado">
+                    <option>Selecionar</option>
+                    <option>AC</option>
+                    <option>AL</option>
+                    <option>AP</option>
+                    <option>AM</option>
+                    <option>BA</option>
+                    <option>CE</option>
+                    <option>DF</option>
+                    <option>ES</option>
+                    <option>GO</option>
+                    <option>MA</option>
+                    <option>MT</option>
+                    <option>MS</option>
+                    <option>MG</option>
+                    <option>PA</option>
+                    <option>PB</option>
+                    <option>PR</option>
+                    <option>PE</option>
+                    <option>PI</option>
+                    <option>RJ</option>
+                    <option>RN</option>
+                    <option>RS</option>
+                    <option>RO</option>
+                    <option>RR</option>
+                    <option>SC</option>
+                    <option>SP</option>
+                    <option>SE</option>
+                    <option>TO</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="Cidade">Cidade</label>
+                <input type="text" name="Cidade" placeholder="Digite sua Cidade" required>
+            </div>
+            
+            <div>
+                <label for="Bairro">Bairro</label>
+                <input type="text" name="Bairro" placeholder="Digite seu Bairro" required>
+            </div>
+            
+            <h2>Campo de Pagamente</h2>
+            <hr>
+            
+            <div>
+                <label for="Num-Cartão">Número do Cartão</label>
+                <input type="text" name="Num-Cartão" placeholder="Dgite o Número do Cartão" required>
+            </div>
+            
+            <div>
+                <label for="Nome-Cartão">Nome no Cartão</label>
+                <input type="text" name="Nome-Cartão" placeholder="Digite o Nome no cartão" required>
+            </div>
+            
+            <div>
+                <label for="Validade">Validade</label>
+                <input type="text" name="Validade" required>
+            </div>
+            
+            <div>
+                <label for="CVV">CVV</label>
+                <input type="text" name="CVV" placeholder="Digite o CVV" required>
+            </div>
+            
+            <hr>
+            <input type="submit" value="Enviar" class="container" style="width: 110px;" id="botao">
+
+    </form>
+
+    
+</body>
+</html>
