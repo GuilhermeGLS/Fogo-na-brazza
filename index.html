@@ -23,6 +23,8 @@
         <a href="#contatos">Contatos</a>
         <!-- link cadastro -->
         <a href="cadastro.html">Cadastro</a>
+        <!-- login -->
+        <a href="#conteudo" data-modal="abrir">Login</a>
    </nav>
     <!-- conteúdo do site -->
     <main>
@@ -94,5 +96,21 @@
 
         	&copy; 2023 Guilher Lima. Quase todos os direitos reservados
     </footer>
+
+    <section class="modal-container" data-modal="container">
+        <div class="modal">
+            <button data-modal="fechar" class="fechar">x</button>
+            <form>
+                <label for="email">Email</label>
+                <input type="text" for="email" id="email">
+                <label for="senha">Email</label>
+                <input type="password" for="senha" id="senha">
+                <button type="submit">Entrar    </button>
+                
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
